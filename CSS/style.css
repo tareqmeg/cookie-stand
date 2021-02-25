@@ -5,22 +5,26 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(177, 172, 172);
+  background-color: rgb(73, 129, 136);
 }
 body header h1 {
   padding: 10px;
   font-size: 40px;
   width: 100%;
   background-color: honeydew;
+  color: rgb(40, 91, 136);
   overflow: auto;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
 }
 a:link, a:visited {
     background-color: #f44336;
     color: white;
-    padding: 14px 25px;
+    padding: 20px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-family: 'Zilla Slab Highlight', cursive;
   }
   
   a:hover, a:active {
@@ -36,20 +40,58 @@ a:link, a:visited {
  }
  body main section h1 {
    font-size: 40px;
+   color: aqua;
    width: 10px 20;
    margin: 20px 20px;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Zilla Slab Highlight', cursive;
  }
 
  body main section ul li{
   font-size: 25px;
   width: 10px 20;
   margin: 20px 20px;
-  color: rgb(19, 19, 83);
+  
+  color: bisque;
+  font-family: 'Brygada 1918', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
  }
-table{
-  padding: 15px;
 
+ #addNewCookiesStorForm{
+  padding: 25px;
+  font-size: 20px;
+  color: blanchedalmond;
+ }
+ fieldset {
+  background-color: #eb3939;
 }
-td {
-  text-align: center;
+
+legend {
+  background-color: #f17e7e;
+  color: white;
+  padding: 5px 10px;
 }
+
+input {
+  margin: 5px;
+}
+
+ table, th, td {
+   padding: 25px;
+   font-size: 20px;
+   color: blanchedalmond;
+  border: 1px solid black;
+  font-family: 'Brygada 1918', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
+}
+
+h2 {
+  font-size: 40px;
+  color: aqua;
+  width: 10px 20;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
+}
+
